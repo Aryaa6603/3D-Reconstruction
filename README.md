@@ -1,2 +1,1 @@
-# compvision3d
-nndiffrec based 3d reconstraction
+# 3D Reconstruction from 2D input using NNDiffrec
