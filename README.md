@@ -1,1 +1,1 @@
-# 3D Reconstruction from 2D input using NNDiffrec
+# 3D Reconstruction from 2D input using NVDiffrec
