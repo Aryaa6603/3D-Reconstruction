@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "compvis3d"
+version = "0.1.0"
+description = "nvdiffrec based 3d reconstraction"
+authors = ["team <epam@epam.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.10.0"
+glfw = "2.5.3"
+gdown = "4.4.0"
+xatlas = "0.0.6"
+click = "^8.0.3"
+rembg = {extras = ["gpu"], version = "^2.0.21"}
+# rembg = "^2.0.21"
+Pillow = "^9.0.1"
+imageio = "2.19.3"
+pre-commit = "^2.19.0"
+scikit-image = "^0.19.1"
+opencv-python = "^4.6.0"
+dvc = {extras = ["gs"], version = "*"}
+
+# pip install git+https://github.com/NVlabs/nvdiffrast/
+# pip install --global-option="--no-networks" git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+# conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+# imageio_download_bin freeimage
+ninja = "^1.10.2"
+# PyOpenGL = "^3.1.6"
+torch = "^1.11.0"
+numpy-quaternion = "^2022.4.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
